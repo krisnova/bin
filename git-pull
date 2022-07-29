@@ -13,7 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 set -e
-git add .
-git commit -s -m "Automatic commit from github.com/kris-nova/bin/git-save"
-git push
-echo "Saved..."
+git pull origin main
