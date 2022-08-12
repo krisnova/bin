@@ -13,12 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-rm -vrf *~
-rm -vrf *.tar.gz
-rm -vrf *.zip
-rm -vrf *.png
-rm -vrf *.jpg
-rm -vrf *.jpeg
-rm -vrf *.pdf
-rm -vrf *.docx
-rm -vrf \#*
+
+# According to https://github.com/crowbartools/Firebot/issues/1681
+# We must be in the directory that Firebot is unpacked/untarred into.
+cd /opt/firebot
+
+
+./Firebot\ v5 
