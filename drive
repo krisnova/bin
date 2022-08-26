@@ -14,5 +14,4 @@
 # limitations under the License.
 
 
-
-rclone mount nivenly: ~/Drive &
+rclone mount nivenly: ~/Drive 

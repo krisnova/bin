@@ -13,12 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-rm -vrf *~
-rm -vrf *.tar.gz
-rm -vrf *.zip
-rm -vrf *.png
-rm -vrf *.jpg
-rm -vrf *.jpeg
-rm -vrf *.pdf
-rm -vrf *.docx
-rm -vrf \#*
+mv -v *~       /tmp 2> /dev/null
+mv -v *.tar.gz /tmp 2> /dev/null
+mv -v *.zip    /tmp 2> /dev/null
+mv -v *.png    /tmp 2> /dev/null
+mv -v *.JPG    /tmp 2> /dev/null
+mv -v *.JPEG   /tmp 2> /dev/null
+mv -v *.jpg    /tmp 2> /dev/null
+mv -v *.jpeg   /tmp 2> /dev/null
+mv -v *.pdf    /tmp 2> /dev/null
+mv -v *.docx   /tmp 2> /dev/null
+mv -v \#*      /tmp 2> /dev/null
